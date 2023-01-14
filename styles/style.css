@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header and nav styles */
+
+.header {
+    width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.section-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #131313;
+    padding-top: 90px;
+}
+
+.section-dis {
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-top: 32px;
+}
+
+.section nav>img {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+}
+
+
+/* button style */
+
+.btn {
+    background: #FF900E;
+    color: white;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 32px 400px 32px 650px;
+}
+
+
+/* blog styles */
+
+.blog-up {
+    display: flex;
+}
+
+.blog-down {
+    display: flex;
+}
+
+.blog {
+    padding: 10px;
+    background-color: white;
+    width: 342px;
+    height: 342px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.blog-logo {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+}
+
+.blog-right-container {
+    width: 537px;
+    height: 304px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.blog-title {
+    width: 468px;
+    height: 106px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.blog-des {
+    width: 537px;
+    width: 537px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 32px;
+}
+
+
+/* button style */
+
+.btn1 {
+    color: white;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+/* Feature styles */
+
+.feature {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.feature-one-left h2::before {
+    content: "";
+    width: 5px;
+    height: 120px;
+    background-color: #FF900E;
+    float: left;
+    margin-left: 5px;
+}
+
+.feature-one-left h2 {
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 36px;
+}
+
+.feature-one-left p {
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+}
+
+.feature-img img {
+    width: 800px;
+    height: 1059px;
+}
+
+.feature-design {
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-sub {
+    width: 514px;
+    height: 111px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: 15px;
+}
+
+.feature-sub h4 {
+    width: 252px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.feature-sub p {
+    width: 514px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* botton style */
+
+.btn2 {
+    position: absolute;
+    width: 342px;
+    height: 200px;
+    left: 830px;
+    top: 3190px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn-design {
+    width: 258px;
+    height: 109px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* some facts styles */
+
+.some-award {
+    display: flex;
+    justify-content: center;
+}
+
+.des {
+    padding: 44px 50px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.des:hover {
+    width: 241.83px;
+    height: 241.83px;
+    transform: rotate(360deg);
+}
+
+.award {
+    box-sizing: border-box;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.award img {
+    width: 45.22px;
+    height: 45.22px;
+    margin-top: 60px;
+}
+
+.award h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.award p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+.some-title {
+    width: 258px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.some-des {
+    width: 542px;
+    height: 52px;
+    font-size: 16px;
+    margin-left: 250px;
+    color: #727272;
+    margin-top: 15px;
+}
+
+
+/* sponspors styles */
+
+.sponspor-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 120px;
+}
+
+.sponspor-des {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.sponspor-logo {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 44px 60px;
+}
+
+
+/* footer styles */
+
+footer {
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 30px 300px;
+}
+
+.footer-des p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding-top: 40px;
+}
+
+
+/* media querry or responsive styles */
+
+@media only screen and (max-width: 576px) {
+    .header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponspor-logo,
+    .some-award {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section nav>img {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-right-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-down,
+    .blog-up {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-one-left h2 p {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section>img {
+        width: 100%;
+        height: 100%;
+    }
+}
