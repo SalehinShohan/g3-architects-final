@@ -374,6 +374,61 @@ footer {
 }
 
 
+/* extra section styles */
+
+@keyframes sliding {
+    0% {
+        background-color: yellow;
+        left: 0;
+        top: 0;
+        transform: scale(0.5);
+    }
+    25% {
+        top: 200px;
+        background-color: royalblue;
+    }
+    50% {
+        top: 0;
+        background-color: yellow;
+    }
+    75% {
+        top: 200px;
+        background-color: yellowgreen;
+    }
+    100% {
+        background-color: violet;
+        left: 600px;
+        top: 0;
+    }
+}
+
+.extra h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.stage {
+    width: 50%;
+    height: 300px;
+    margin-left: 450px;
+    background-color: #FF900E;
+    margin-bottom: 50px;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: sliding 2s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+}
+
+
 /* media querry or responsive styles */
 
 @media only screen and (max-width: 576px) {
