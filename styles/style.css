@@ -265,13 +265,13 @@ nav ul {
 
 .des {
     padding: 44px 50px;
-    transition: width 1s, height 1s, transform 1s;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .des:hover {
     width: 241.83px;
     height: 241.83px;
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
 }
 
 .award {
@@ -405,8 +405,8 @@ footer {
 .extra h1 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 45px;
+    font-weight: 700;
     margin-top: 50px;
 }
 
@@ -431,43 +431,34 @@ footer {
 
 /* media querry or responsive styles */
 
-@media only screen and (max-width: 576px) {
-    .header nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    .sponspor-logo,
-    .some-award {
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width: 576px) {
+    .header {
+        background-color: none;
     }
     nav {
         flex-direction: column;
-        align-items: center;
+        gap: 20px;
+        padding: 10px 20px;
     }
     nav ul {
         flex-direction: column;
-        align-items: center;
+        gap: 20px;
     }
-    .section nav>img {
-        flex-direction: column;
-        align-items: center;
-    }
-    .blog-right-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .blog-down,
-    .blog-up {
-        flex-direction: column;
-        align-items: center;
-    }
-    .feature-one-left h2 p {
-        flex-direction: column;
-        align-items: center;
-    }
-    .section>img {
+    .section img {
         width: 100%;
-        height: 100%;
+    }
+    .blog-left-comntainer,
+    .blog-right-container,
+    .feature-one-left,
+    .some-facts,
+    .our-sponspors,
+    .extra,
+    .blogs,
+    .award,
+    .blog-title,
+    .some-title {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
     }
 }
